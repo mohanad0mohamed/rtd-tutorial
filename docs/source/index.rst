@@ -11,9 +11,7 @@ how to :ref:`installation` the project.
 
 .. note::
 
-   This project is under active development.
-
-mainly by mohanad
+   This project is under active development. mainly by mohanad
 
 Contents
 --------
