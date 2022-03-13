@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'RTD-Tutorial'
+copyright = '2022, Mohanad'
+author = 'Mohanad'
 
 release = '0.1'
 version = '0.1.0'
@@ -33,3 +33,8 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+[options.extras_require]
+docs =
+    sphinx
+    myst-parser
