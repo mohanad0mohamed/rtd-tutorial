@@ -18,8 +18,3 @@ python:
 formats:
   - pdf
   - epub
-
-[options.extras_require]
-docs =
-    sphinx
-    myst-parser
