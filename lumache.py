@@ -1,5 +1,5 @@
 """
-Lumache - Python library for cooks and food lovers.
+Mohanad - Python library for skills and experiences.
 """
 
 __version__ = "0.1.0"
@@ -20,4 +20,4 @@ def get_random_ingredients(kind=None):
     :return: The ingredients list.
     :rtype: list[str]
     """
-    return ["shells", "gorgonzola", "parsley"]
+    return ["python", "git", "markdown"]
