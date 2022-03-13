@@ -6,14 +6,18 @@ build:
     python: "3.8"
 sphinx:
   fail_on_warning: true
-  configuration: docs/source/conf.py
+  install:
+    - requirements: docs/requirements.txt
+
+submodules:
+  include: all
+
+formats: all
 
 python:
   install:
     - method: pip
       path: .
-      extra_requirements:
-        - doc
 
 formats:
   - pdf
